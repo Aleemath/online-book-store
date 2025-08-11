@@ -35,15 +35,6 @@ Users can browse, search, and view books. Admins can log in to manage the book c
 
 ---
 
-## 📂 Installation
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/online-book-store.git
-cd online-book-store
-```
-
 ## Install dependencies
 
 composer install
@@ -53,3 +44,15 @@ npm install && npm run build
 
 cp .env.example .env
 php artisan key:generate
+
+## Database migration & seeding
+
+php artisan migrate --seed
+
+## Storage link
+
+php artisan storage:link
+
+## Run the application
+
+php artisan serve
